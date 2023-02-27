@@ -20,3 +20,23 @@ if __name__ == "__main__":
         t.start()
     for t in threads:
         t.join()
+        
+        
+       
+  # This script checks for open ports on a machine in range 1 - 65536 #
+
+ # To run make sure latest version of python is installed then run script using powershell #
+
+# Script will ask for ip to scan, enter your ip to see open ports #
+
+
+# Example Output: 
+
+Enter the IP address to scan: 202.61.134.138
+Port 139 is open
+Port 135 is open
+Port 445 is open
+Port 902 is open
+Port 912 is open
+Port 5040 is open
+Port 5426 is open 
